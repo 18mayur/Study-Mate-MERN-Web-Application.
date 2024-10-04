@@ -1,0 +1,70 @@
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 2px;
+    height: 40px;
+    width: 85px;
+    border: none;
+    background: #a549da3d;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .edit2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 2px;
+    height: 40px;
+    width: 85px;
+    border: none;
+    background: #cc0000;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .lable {
+    line-height: 22px;
+    font-size: 19px;
+    color: #A649DA;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  .lable1 {
+    line-height: 22px;
+    font-size: 19px;
+    color: #ffffff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .edit:hover {
+    background: #a549da62;
+  }
+  
+  .edit:hover .svg-icon {
+    animation: lr 1s linear infinite;
+  }
+  
+  @keyframes lr {
+    0% {
+      transform: translateX(0);
+    }
+  
+    25% {
+      transform: translateX(-1px);
+    }
+  
+    75% {
+      transform: translateX(1px);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .max{
+    max-width: 1800px !important;
+  }

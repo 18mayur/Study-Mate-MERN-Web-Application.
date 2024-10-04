@@ -1,0 +1,147 @@
+.container {
+    position: relative;
+    /* top: 2rem; */
+}
+
+.para {
+    line-height: 1.41;
+    color: black;
+    font-size: 26px;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    margin-top: 23px;
+    margin-right: 5rem;
+    max-width: 170%;
+    height: auto;
+}
+
+.img3 {
+    margin-top: 23px;
+    margin-right: 5rem;
+    max-width: 300%;
+    height: auto;
+}
+
+.img2 {
+    /* margin-top: 23px;
+        margin-right: 5rem; */
+    position: relative;
+    left: 37px;
+
+    max-width: 180%;
+    height: auto;
+}
+
+.img4 {
+    position: relative;
+    left: 37px;
+    max-width: 205%;
+    height: auto;
+}
+/* .soul{
+    height: 90vh;
+} */
+.para2 {
+    line-height: 1.41;
+    color: black;
+    font-size: 26px;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.car{
+    width: 100%;
+    height: 700px;
+}
+.carousel-caption {
+    font-size: 2.45rem;
+    bottom: 11.25rem;
+    text-align: left;
+}
+.carousel-control-prev{
+    width: 10%;
+}
+.font{
+    font-size: 25px;
+    height: 12px;
+}
+@media (max-width:768px) {
+    .para {
+        font-size: 18px;
+        padding-left: 17px;
+        padding-right: 25px;
+    }
+
+    /* .img1{ */
+    /* margin-top: 23px;
+        margin-left: 93px;
+        margin-bottom: 30px;
+        margin-right: 100px; */
+    /* max-width: 118%;
+        height: auto; 
+        position: relative;      
+          left: 65px;
+         bottom: 12px;         */
+    /* } */
+}
+
+@media (max-width:426px) {
+    .img1 {
+        margin-top: 23px;
+        margin-left: 93px;
+        margin-bottom: 30px;
+        margin-right: 100px;
+        max-width: 155%;
+        height: auto;
+    }
+.car{
+    max-width: 100%;
+    height: auto ;
+}
+    .img2 {
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 90px;
+        max-width: 155%;
+        height: auto;
+    }
+
+    .para {
+        color: black;
+        font-size: 19px;
+        padding-right: 13px;
+        padding-left: 25px;
+        padding-top: 12px;
+        line-height: 1.42;
+    }
+
+    .para2 {
+        color: black;
+        font-size: 19px;
+        padding-right: 13px;
+        padding-left: 25px;
+        padding-top: 12px;
+        line-height: 1.42;
+    }
+
+    .h21 {
+        font-size: 15px;
+    }
+}
+
+/* .img1{
+
+    } */
+/* .lg\:w-3\/5 @media (min-width: 1024px)  {
+        width: 90%;
+    } */
+/* .section{
+        position: relative;
+        top: 56rem;
+    } */
+    

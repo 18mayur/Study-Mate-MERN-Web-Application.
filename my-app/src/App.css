@@ -1,0 +1,32 @@
+.sect::before{
+    background: url('images/study.jpg');
+    content: "";
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 1.97;
+}
+.heading1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 190px;
+    right: 50px;
+    color:#ffff;
+}
+.heading1 h1{
+    font-size: 3.95rem;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+.test{
+    position: relative;
+    top: 56rem;
+}
