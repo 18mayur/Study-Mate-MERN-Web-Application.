@@ -56,14 +56,12 @@ const verifyUser = async (req, res, next) => {
 router.get('/verify',verifyUser, (req, res) => {
     return res.json({status:true,message:"verifyed user "})
 });
-
 router.get('/logout',(req,res)=>{
     res.clearCookie('token');
     return res.json({status: true ,message: 'cookie clear'})
 });
 
 // Recruiter signup and Login Routes 
-
 router.post('/signup1', async (req, res) => {
     const { username, email, password } = req.body;
     const user = await JobModel.findOne({ email })
